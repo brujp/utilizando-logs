@@ -7,7 +7,7 @@ public class Mensageiro {
         try {
             Thread.sleep(5000);
             var x = 4 / 0;
-            System.out.println("Resultadp da divisão é: " + x);
+            System.out.println("Resultado da divisão é: " + x);
         } catch(ArithmeticException e) {
             System.err.println("Ocorreu um erro na divisão " + e);
         } catch (InterruptedException e) {
